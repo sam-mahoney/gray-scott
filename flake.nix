@@ -16,6 +16,8 @@
         matplotlib
         jupyter
         ipykernel
+        ipywidgets
+        tinygrad
       ]);
     in
     {

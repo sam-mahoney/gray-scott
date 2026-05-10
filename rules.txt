@@ -17,10 +17,12 @@ V: The Autocatalyst
 -- additional V is created where U and V meet (V consumes U -> produces more V)
 -- is removed (the "kill" at rate `F+k`)
 
-==== ? ====
+==== understanding ====
 (a) why does V grow in regions where U is high, (b) but stop growing where U is depleted?
 
-a: V takes U as input. It then outputs additional V
-b: it cannot reproduce, V is removed quicker than it can diffuse to areas of high U
+a: V takes U as input. It then outputs additional V. Seed of V is required to start reaction.
+b: V is removed quicker than it can diffuse to areas of high U. V is constantly
+dying. V requires U to grow. 
+
 
 
