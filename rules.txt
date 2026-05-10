@@ -1,0 +1,26 @@
+
+==== rules ====
+
+∂U/∂t = Du * ∇²U - U*V² + F*(1 - U)
+
+∂V/∂t = Dv * ∇²V + U*V² - (F + k)*V
+
+==== meaning ====
+
+U: The Substrate 
+-- spreads to neighboring cells (diffusion at rate `Du`)
+-- consumed where it meets V (reaction)
+-- replenished toward concentration 1 from outside (the "feed" at rate `F`)
+
+V: The Autocatalyst
+-- spreads to neighboring cells (diffusion at rate `Dv`)
+-- additional V is created where U and V meet (V consumes U -> produces more V)
+-- is removed (the "kill" at rate `F+k`)
+
+==== ? ====
+(a) why does V grow in regions where U is high, (b) but stop growing where U is depleted?
+
+a: V takes U as input. It then outputs additional V
+b: it cannot reproduce, V is removed quicker than it can diffuse to areas of high U
+
+
