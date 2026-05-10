@@ -1,0 +1,37 @@
+== Bistability ==
+
+--
+Bi: Two 
+Stability: System stays in that place without external input
+--
+
+
+A bistable structure can be resting in either of two states.
+
+On/Off | 1/0 | Activated/Deactivated
+
+A big enough push is required to move the system to its other state.
+
+
+== Gray-Scott ==
+
+The Gray-Scott system has two stable states for any local region in the grid:
+
+State 1 (valley A): U=1, V=0. The trivial state. Feed and decay in equilibrium, no reaction.
+State 2 (valley B): U partially depleted, V present. The patterned state.
+
+State 1 allows the react to stay self contained. It doesn't continue infinitely into space.
+
+Since this is a bistable structure the system can sit in either state but not a mix of both. 
+
+== Mechanics ==
+
+Creation depends on V². Removal depends on V.
+
+1. V from the interior diffuses outward.
+2. As it spreads, concentration drops (dilution).
+3. At some distance from the source, V drops below the threshold where creation = removal.
+4. Past that distance, V is small enough that decay overwhelms reaction.
+5. V dies.
+
+
